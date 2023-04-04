@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>MoHtRf Android ™</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus,
+*:active{
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+html,
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://i.postimg.cc/JnJrz3gJ/IMG-20221223-131301-237.jpg);
+  font-family: "Poppins", system-ui;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.card {
+ --background: linear-gradient(to left, #939095 0%, #0021f8 100%);
+ width: 320px;
+ height: 80px;
+ padding: 5px;
+ margin-top: 60px;
+ margin-left: 20px;
+ border-radius: 1rem;
+ overflow: visible;
+ background: #4c028c;
+ background: var(--background);
+ position: relative;
+ z-index: 1;
+}
+
+.card::after {
+ position: absolute;
+ content: "";
+ top: 30px;
+ left: 0;
+ right: 0;
+ z-index: -1;
+ height: 100%;
+ width: 100%;
+ transform: scale(0.8);
+ filter: blur(25px);
+ background: #3a05a3;
+ background: var(--background);
+ transition: opacity .5s;
+}
+.card-info {
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 80%;
+ overflow: visible;
+ border-radius: .7rem;
+ 
+}
+.card_title {
+ font-family: system-ui;
+ text-transform: uppercase;
+ font-weight: bold;
+ letter-spacing: .1em;
+}
+#ch1 {
+ align-items: center;
+ background-image: url(https://iili.io/HXcI08l.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ margin: 10px 0px 60px 70px;
+}
+#ch2 {
+ align-items: center;
+ background-image: url(https://iili.io/HXcIscv.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ margin: 10px 0px 90px 60px;
+}
+#ch3 {
+ align-items: center;
+ background-image: url(https://iili.io/HXcItAN.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ margin: 10px 0px 90px 60px;
+}
+#ch4 {
+ align-items: center;
+ background-image: url(https://iili.io/HXcIDNI.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ margin: 10px 0px 60px 70px;
+}
+#ch5 {
+ align-items: center;
+ background-image: url(https://iili.io/HXcIyVn.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ margin: 10px 0px 60px 60px;
+}
+#ch6 {
+ align-items: center;
+ background-image: url(https://iili.io/HXcR9iF.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ margin: 10px 0px 60px 50px;
+}
+#ch7 {
+ align-items: center;
+ background-image: url(https://iili.io/HXcRdla.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ margin: 10px 0px 90px 50px;
+}
+#ch8 {
+ align-items: center;
+ background-image: url(https://iili.io/HXcRFHv.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ margin: 10px 0px 60px 50px;
+}
+/*Hover*/
+.card:hover::after {
+ opacity: 0;
+}
+
+.card:hover .card-info {
+ color: #f7ba2b;
+ transition: color 1s;
+}
+header{
+  border: transparent;
+  text-align: center;
+  place-items: center;
+}
+h1{
+  margin: 50px 0px -5px 0px;
+  font-size: 2em;
+  padding: 10px;
+  color: rgb(203, 198, 198);
+  letter-spacing: 5px;
+  font-weight: bold;
+  padding-left: 10px;
+  border-radius: 25px;
+  border-top: 3px solid #00d9ff;
+  border-bottom: 3px solid #00d9ff;
+  text-align: center;
+  font-weight: bold;
+}
+	</style>
+</head>
+<body>
+  <header>
+    <h1>MoHtRf AnDrOiD</h1>
+  </header>
+  <main>
+    <div class="card">
+      <a href="http://" target="_blank" rel="">
+        <div class="card-info" id="ch1">
+        </div>
+      </a>
+    </div>
+    <br><br>
+    <div class="card">
+      <a href="http://" target="_blank" rel="">
+        <div class="card-info" id="ch2">
+        </div>
+      </a>
+    </div>
+    <br><br>
+    <div class="card">
+      <a href="http://" target="_blank" rel="">
+        <div class="card-info" id="ch3">
+        </div>
+      </a>
+    </div>
+    <br><br>
+    <div class="card">
+      <a href="http://" target="_blank" rel="">
+        <div class="card-info" id="ch4">
+        </div>
+      </a>
+    </div>
+    <br><br>
+    <div class="card">
+      <a href="http://" target="_blank" rel="">
+        <div class="card-info" id="ch5">
+        </div>
+      </a>
+    </div>
+    <div class="card">
+      <a href="http://" target="_blank" rel="">
+        <div class="card-info" id="ch6">
+        </div>
+      </a>
+    </div>
+    <br><br>
+    <div class="card">
+      <a href="http://" target="_blank" rel="">
+        <div class="card-info" id="ch7">
+        </div>
+      </a>
+    </div>
+    <br><br>
+    <div class="card">
+      <a href="http://" target="_blank" rel="">
+        <div class="card-info" id="ch8">
+    </div>
+    <br><br>
+  </main>
+  <br><br>
+  <footer>
+    <script type="text/javascript">
+      var arrgetbtn=[];
+      arrgetbtn.push({"title":"Telegram","icon":"fwidgethelp-telegram_v2","link":"https://t.me/mohtrfandroid","target":"_blank","color":"rgb(255, 255, 255)","background":"#27A5E7"});
+      arrgetbtn.push({"title":"Youtube","icon":"fwidgethelp-caret-square-o-right","link":"https://youtube.com/@mohtrfandroid6","target":"_blank","color":"#FFFFFF","background":"#ff0000"});
+      arrgetbtn.push({"title":"Mail","icon":"fwidgethelp-envelope","link":"https://admin@mohtrfandroid.com","target":"_blank","color":"#FFFFFF","background":"#000000"});
+       var WidGetButtonOptions = {
+        id:"8e4984dcb66b27700526f1d0313f3bed",
+        iconopen:"fwidgethelp-arrow-right",
+        maintitle:"MoHtRf AnDrOiD",
+        mainbackground:"#ffffff",
+        maincolor:"#000000",
+        pulse:"widgethelp_pulse",
+        fasize:"1.94",
+        direction:"right",
+        position:"leftbottom",
+        arrbtn: arrgetbtn
+      };
+      (function() {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.async = true;
+        script.src = "https://getbtn.com/widget/index.php?id="+WidGetButtonOptions.id;
+        document.getElementsByTagName("head")[0].appendChild(script);
+      })();
+    </script>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>MoHtRf Android ™</title>
+	<link href="../New Folder/style.css" rel="stylesheet" />
+	<style>
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus,
+*:active{
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+html,
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://i.ibb.co/TgwZk3j/IMG-20221223-131301-237.jpg);
+  font-family: "Poppins", system-ui;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+main{
+  margin-top: 20%;
+}
+footer{
+  margin-left: 35%;
+}
+.wrapper{
+  display: inline-flex;
+  list-style: none;
+}
+.center{
+  position: relative;
+  padding: 50px 50px;
+  backdrop-filter: blur(4px);
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 20px 20px 120px #000;
+  border-radius: 10px;
+  color: #fff;
+}
+h1{
+  font-size: 2em;
+  padding: 10px;
+  color: #fff;
+  letter-spacing: 5px;
+  margin-bottom: 86px;
+  font-weight: bold;
+  padding-left: 10px;
+  border-radius: 25px;
+  border-top: 1px solid #00d9ff;
+  border-bottom: 1px solid #00d9ff;
+  text-align: center;
+}
+.inputbox{
+  align-items: center;
+  position: relative;
+  width: 300px;
+  margin-left: 33px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+input{
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  border: 2px solid #fff;
+  color: #fff;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+.inputbox:last-child{
+  margin-bottom: 0;
+}
+.inputbox span{
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 1em;
+  transition: 0.6s;
+  font-family: system-ui;
+}
+.inputbox input:focus ~ span,
+.inputbox input:valid ~ span{
+  transform: translateX(-13px) translateY(-35px);
+  font-size: 1em;
+}
+.logbutton{
+  display: flex;
+  justify-content: center;
+}
+.codebutton{
+  display: flex;
+  justify-content: center;
+}
+#cc{
+  text-decoration: none;
+  color: aquamarine;
+}
+#c{
+  text-decoration: none;
+  color: rgb(1, 11, 8);
+}
+.login{
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.code{
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(203, 203, 203);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.login:hover{
+  background-color: rgba(15, 9, 95, 0.039);
+}
+.code:hover{
+  background-color: rgb(203, 203, 203);
+}
+
+	</style>
+</head>
+<body>
+  <main>
+	<div class="center">
+		<h1>Login</h1>
+		<form>
+      <!--input-->
+		  <div class="inputbox">
+			  <input type="password" required>
+			  <span>Password</span>
+		  </div>
+      <!--button 1-->
+		  <div class="logbutton">
+			  <button class="login"><a id="cc" href="/">Confirm</a></button>
+		  </div><br><br>
+      <!--button 2-->
+		</form>
+    <div class="codebutton">
+      <button class="code"><a id="c" href="/" target="_blank">Get Password</a></button>
+    </div>
+	</div>
+  </main>
+  <br><br>
+  <footer>
+    <script type="text/javascript">
+      var arrgetbtn=[];
+      arrgetbtn.push({"title":"Telegram","icon":"fwidgethelp-telegram_v2","link":"https://t.me/mohtrfandroid","target":"_blank","color":"rgb(255, 255, 255)","background":"#27A5E7"});
+      arrgetbtn.push({"title":"Youtube","icon":"fwidgethelp-caret-square-o-right","link":"https://youtube.com/@mohtrfandroid6","target":"_blank","color":"#FFFFFF","background":"#ff0000"});
+      arrgetbtn.push({"title":"Mail","icon":"fwidgethelp-envelope","link":"https://admin@mohtrfandroid.com","target":"_blank","color":"#FFFFFF","background":"#000000"});
+       var WidGetButtonOptions = {
+        id:"8e4984dcb66b27700526f1d0313f3bed",
+        iconopen:"fwidgethelp-arrow-right",
+        maintitle:"MoHtRf AnDrOiD",
+        mainbackground:"#ffffff",
+        maincolor:"#000000",
+        pulse:"widgethelp_pulse",
+        fasize:"1.94",
+        direction:"right",
+        position:"leftbottom",
+        arrbtn: arrgetbtn
+      };
+      (function() {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.async = true;
+        script.src = "https://getbtn.com/widget/index.php?id="+WidGetButtonOptions.id;
+        document.getElementsByTagName("head")[0].appendChild(script);
+      })();
+    </script>
+  </footer>
+</body>
